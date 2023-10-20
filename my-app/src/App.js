@@ -1,9 +1,13 @@
 import "./App.css";
-import ControlledFormHooks from "./components/ControlledFormHooks";
+// import StatefulGreetingWithPrevState from "./components/StatefulGreetingWithPrevState";
+// import HooksCounter from "./components/HooksCounter";
+import UseStateWithObjects from "./components/UseStateWithObjects";
 
 function App() {
   return <div className="App">
-      <ControlledFormHooks />
+      {/* <StatefulGreetingWithPrevState />
+      <HooksCounter /> */}
+      <UseStateWithObjects />
   </div>;
 }
 
